@@ -16,8 +16,7 @@ At the prompt of a Claude Code terminal session:
 /plugin install village-sunrise --marketplace Toko-Technologies/village-sunrise-claude-theme
 ```
 
-Answer `y` to add the marketplace, then pick a scope. The repository is
-private, so GitHub must be set up on the computer you install from.
+Answer `y` to add the marketplace, then pick a scope.
 
 ## Use
 
