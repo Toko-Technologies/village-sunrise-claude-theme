@@ -20,7 +20,7 @@ Answer `y` to add the marketplace, then pick a scope.
 
 ## Use
 
-The theme starts dark. Switch with:
+The theme starts light (the sunrise). Switch with:
 
 - `/sunrise light`: the bright morning version
 - `/sunrise dark`: the daybreak version

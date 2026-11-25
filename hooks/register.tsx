@@ -116,11 +116,11 @@ async function apply($: EngineInterface, mode: Mode) {
 
 export const register: Register = on => {
   let level = 0
-  let mode: Mode = 'dark'
+  let mode: Mode = 'light'
   const asks: Record<string, number> = {}
 
   on('session.start', async ($, e, next) => {
-    mode = (await $.store.get('mode')) === 'light' ? 'light' : 'dark'
+    mode = (await $.store.get('mode')) === 'dark' ? 'dark' : 'light'
     const unpainted = LOOKS[mode].problems.find(line => line.startsWith("Desktop won't paint"))
 
     if (unpainted !== undefined) {
