@@ -1,0 +1,5 @@
+{
+  "name": "village-sunrise-claude-theme",
+  "owner": { "name": "Toko-Technologies" },
+  "plugins": [{ "name": "village-sunrise", "source": "./" }]
+}
